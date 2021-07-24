@@ -36,7 +36,7 @@ campsiteRouter.route('/:campsiteId')
 .put((req, res) => {
     res.statusCode = 403;
     res.end(
-        `Updating the campsite: ${req.params.campsiteId} \nWill update the campsite: ${req.body.name} \n\t\twith description: ${req.body.description}`
+        `Updating the campsite: ${req.params.campsiteId} \nWill update the campsite: ${req.body.name} \n\twith description: ${req.body.description}`
     );
 })
 .delete((req, res) => {
